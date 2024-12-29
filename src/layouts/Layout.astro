@@ -1,18 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
     <title>Astro Basics</title>
   </head>
   <body>
+    <noscript>
+      <span>JavaScriptが無効である場合のみ表示されます</span>
+    </noscript>
     <slot />
   </body>
 </html>
 
-<style>
+<style is:global>
   html,
   body {
     margin: 0;

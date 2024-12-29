@@ -1,5 +1,5 @@
 // @ts-check
-
+// TODO: React Rules
 /** @type {import('eslint').ESLint.ConfigData} */
 module.exports = {
     root: true,
@@ -7,6 +7,7 @@ module.exports = {
       "eslint:recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:astro/recommended",
+      "plugin:react/recommended",
       "prettier",
     ],
     env: {
@@ -18,7 +19,10 @@ module.exports = {
       ecmaVersion: "latest",
       sourceType: "module",
     },
-    plugins: ["@typescript-eslint"],
+    plugins: [
+      "react",
+      "@typescript-eslint",
+    ],
     rules: {
       "no-undef": "off",
     },

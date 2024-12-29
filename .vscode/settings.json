@@ -1,9 +1,6 @@
 {
-  "cSpell.words": [
-    "astrojs",
-    "nanostores",
-    "tsconfigs"
-  ],
-  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-  "editor.formatOnSave": true
+  "cSpell.words": ["astrojs", "markuplint", "nanostores", "tsconfigs"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "notebook.defaultFormatter": "esbenp.prettier-vscode"
 }
