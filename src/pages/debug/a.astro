@@ -1,0 +1,18 @@
+---
+import Layout from "@Layout/Layout.astro";
+import { SampleParts } from "@Component/react/parts/Sample";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+---
+
+<Layout title="debug/aページだと思うな">
+  <div>
+    これは pages/debug/a.astro です
+    {name}
+  </div>
+  <SampleParts />
+</Layout>

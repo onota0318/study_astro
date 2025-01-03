@@ -1,0 +1,16 @@
+---
+import Layout from "@Layout/Layout.astro";
+
+interface Props {
+  error: unknown;
+}
+
+const { error } = Astro.props;
+---
+
+<Layout title="404ページだと思うな">
+  <div>
+    これは pages/404.astro です
+    {error instanceof Error ? error.message : "Unknown error"}
+  </div>
+</Layout>

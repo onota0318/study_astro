@@ -8,7 +8,7 @@
     "jsxImportSource": "react",
     "paths": {
       "@Config/*": ["src/configs/*"],
-      "@Feature/*": ["src/features/*"],
+      "@Component/*": ["src/components/*"],
       "@Layout/*": ["src/layouts/*"],
       "@Page/*": ["src/pages/*"],
       "@Style/*": ["src/styles/*"],
