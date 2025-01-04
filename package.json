@@ -37,6 +37,8 @@
   },
   "devDependencies": {
     "@markuplint/astro-parser": "^4.6.14",
+    "@markuplint/jsx-parser": "^4.7.14",
+    "@markuplint/react-spec": "^4.5.14",
     "@tailwindcss/typography": "^0.5.15",
     "@types/sharp": "^0.31.1",
     "@typescript-eslint/eslint-plugin": "^8.18.2",

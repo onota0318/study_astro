@@ -14,5 +14,10 @@ const { name } = Astro.props;
     これは pages/debug/a.astro です
     {name}
   </div>
-  <SampleParts />
+  <div>
+    <SampleParts hoge="piyo">何も指定してない</SampleParts>
+    <SampleParts client:only="react" hoge="fuga">
+      `client:only="react"`を付けている</SampleParts
+    >
+  </div>
 </Layout>
